@@ -15,7 +15,12 @@ function App() {
       <div className="bg-gray-100 min-h-screen">
         <nav className="bg-black p-4 text-white">
           <div className="max-w-7xl mx-auto flex justify-between">
-            <Link to="/" className="text-lg font-bold">Medical App</Link>
+          <a
+  href="https://early-sight-rp-project.vercel.app/user/dashboard/"
+  className="text-lg font-bold"
+>
+  RetinaCare
+</a>
             <div className="space-x-4">
               <Link to="/" className="hover:underline">Home</Link>
               <Link to="/survey" className="hover:underline">Survey Form</Link>
